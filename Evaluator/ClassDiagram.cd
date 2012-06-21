@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Metodos abstractos, que debe tener toda regla que se aplique a una expresión.">
+    <Position X="1.74" Y="0.593" Height="0.781" Width="1.419" />
+  </Comment>
+  <Comment CommentText="El objeto &quot;Error&quot; contiene una descripcion del error y un numero de linea donde se produce el mismo.">
+    <Position X="7.243" Y="0.5" Height="1.083" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Una vez agregada una expresión, podemos validarla, ver los errores de validación, separar en sub-expresiones la expresión principal e imprimirla.">
+    <Position X="11.44" Y="0.531" Height="1.062" Width="2.054" />
+  </Comment>
+  <Comment CommentText="Genera la tabla de verdad a partir de un vector de una expresión y un vector conteniendo las sub-expresiones de la misma.">
+    <Position X="0.5" Y="6.188" Height="1.042" Width="1.7" />
+  </Comment>
+  <Comment CommentText="La clase OperatorList implementa el patron singleton para proveer una coleccion de operadores y operadores especiales.">
+    <Position X="5.208" Y="6.26" Height="1.156" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Estas clases contienen una implementación estática para evaluar una expresión.">
+    <Position X="11.75" Y="5.667" Height="0.333" Width="4.887" />
+  </Comment>
+  <Class Name="Error">
+    <Position X="9.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAAAAAQAAAAAAAAAACAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Error.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expression">
+    <Position X="13.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgIAAEAAAAABAAEAAACCABABAAAQAAQgBAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parentesis">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAEAAA=</HashCode>
+      <FileName>Parentesis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidatorRule">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAYAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ValidatorRule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Variable">
+    <Position X="3.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQABAAAAAA=</HashCode>
+      <FileName>Variable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Operator">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgBAAAIAA=</HashCode>
+      <FileName>Operator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrueTable">
+    <Position X="2.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABQAAAAAAAAAAERAAAAACACBhAAAAQAEAKggAgAAAA=</HashCode>
+      <FileName>TrueTable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperatorList">
+    <Position X="7.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAACAAAAAAAAAIABAACAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>OperatorList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prAnd">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prAnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prConditional">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prConditional.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prOr">
+    <Position X="13.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prOr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prPierce">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prPierce.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prSheffer">
+    <Position X="15.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prSheffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prXor">
+    <Position X="15.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>prXOR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
